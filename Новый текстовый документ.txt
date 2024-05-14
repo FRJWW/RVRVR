@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя личная веб-страница о магнитолах</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на мою личную веб-страницу о магнитолах</h1>
+    </header>
+    
+    <nav>
+        <!-- Меню навигации -->
+    </nav>
+    
+    <main>
+        <section id="about">
+            <h2>О магнитолах</h2>
+            <p>Здесь вы найдете информацию о магнитолах, их истории, технических характеристиках и многое другое.</p>
+        </section>
+        
+        <section id="gallery">
+            <h2>Галерея</h2>
+            <!-- Здесь будет галерея изображений магнитол -->
+        </section>
+        
+        <section id="contact">
+            <h2>Контакты</h2>
+            <!-- Здесь будут контактные данные -->
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Моя личная веб-страница о магнитолах</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000033; /* синий */
+    color: #ffffff; /* белый */
+}
+
+header {
+    background-color: #000000; /* черный */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #000033; /* синий */
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
